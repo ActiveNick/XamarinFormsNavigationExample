@@ -47,6 +47,8 @@ namespace App3
                 default:
                     throw new NotSupportedException();
             }
+
+            _closeMaster();
         }
 
         [NotifyPropertyChangedInvocator]
